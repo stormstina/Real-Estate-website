@@ -1,3 +1,4 @@
+let base = import.meta.env.BASE_URL;
 let soldObjects = [
     {
         address: "HORNSGATAN 154",
@@ -62,7 +63,7 @@ for (let i = 0; i < soldObjects.length; i++) {
     grid.innerHTML += `
     <article class="column is-4 has-text-centered">
         <figure class="image is-4by3">
-            <img src="../pictures/soldObjects/${soldObjects[i].image}" alt="${soldObjects[i].address}"/>
+            <img src="${base}./pictures/soldObjects/${soldObjects[i].image}" alt="${soldObjects[i].address}"/>
         </figure>
         <h2>${soldObjects[i].address}</h2>
         <i class="fa-solid fa-star"></i>
