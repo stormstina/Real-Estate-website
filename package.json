@@ -5,6 +5,7 @@
   "main": "index.js",
   "devDependencies": {
     "bulma": "^0.9.4",
+    "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0",
     "vite": "^4.0.0"
   },
@@ -12,7 +13,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
