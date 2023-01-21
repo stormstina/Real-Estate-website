@@ -6,27 +6,27 @@ footer.innerHTML = `
     <div class="columns">
         <!--MENY-->
         <div class="column is-3-tablet footer-container" >
-            <p>MENY</p>
+            <h2>MENY</h2>
             <div class="columns links">
                 <div class="column">
                     <ul>
                         <li>
-                            <a class="page" href="/index.html">
+                            <a class="page" href="./index.html">
                                 HEM
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="/pages/properties.html">
+                            <a class="page" href="./pages/properties.html">
                                 TILL SALU
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="/pages/sell.html">
+                            <a class="page" href="./pages/sell.html">
                                 SÄLJ MED OSS
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="/pages/testimonials.html">
+                            <a class="page" href="./pages/testimonials.html">
                                 SÅLDA OBJEKT
                             </a>
                         </li>
@@ -46,7 +46,7 @@ footer.innerHTML = `
         </div>
         <!--HITTA OSS-->
         <div class="column is-4-tablet is-inline footer-container">
-            <p>HITTA OSS</p>
+            <h2>HITTA OSS</h2>
 
             <!--PLATS-->
             <a href="https://www.google.com/maps/place/Grev+Turegatan+6,+114+46+Stockholm/@59.3352003,18.066199,15z/data=!3m1!4b1!4m5!3m4!1s0x465f9d5b6fd25049:0x7c52e24738b70557!8m2!3d59.3352006!4d18.0749537" aria-label="Hitta till Anrika Fastigheter via Google Maps" rel="external" target="_blank">
@@ -87,7 +87,7 @@ footer.innerHTML = `
         </div>
         <!--FÖLJ OSS-->
         <div class="column is-2-tablet footer-container">
-            <p>FÖLJ OSS</p>
+            <h2>FÖLJ OSS</h2>
             <div class="columns is-mobile">
                 <div class="column is-narrow">
                     <a href="https://www.facebook.com/" aria-label="Följ Anrika Fastigheter på Facebook" rel="external" target="_blank">

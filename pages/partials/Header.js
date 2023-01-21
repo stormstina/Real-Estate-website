@@ -5,7 +5,7 @@ header.innerHTML = `
     <div class="navbar-brand">
         <!--Logga-->  
         <a class="navbar-item nav-logo" href="/">
-            <img src="/pictures/logo-text.png" alt="Anrika Fastigheters logga, länk till startsida"/>
+            <img src="./pictures/logo-text.png" alt="Anrika Fastigheters logga, länk till startsida"/>
         </a>   
         <!--Hamburgaremeny-->  
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -18,32 +18,32 @@ header.innerHTML = `
     <div id="navbarBasicExample" class="navbar-menu">
         <ul class="navbar-start">
             <li>
-                <a class="navbar-item page" href="/index.html">
+                <a class="navbar-item page" href="./index.html">
                     HEM
                 </a>
             </li>
             <li>
-                <a class="navbar-item page" href="/pages/properties.html">
+                <a class="navbar-item page" href="./pages/properties.html">
                     TILL SALU
                 </a>
             </li>
             <li>
-                <a class="navbar-item page" href="/pages/sell.html">
+                <a class="navbar-item page" href="./pages/sell.html">
                     SÄLJ MED OSS
                 </a>
             </li>
             <li>
-                <a class="navbar-item page" href="/pages/testimonials.html">
+                <a class="navbar-item page" href="./pages/testimonials.html">
                     SÅLDA OBJEKT
                 </a>
             </li>
             <li>
-                <a class="navbar-item page" href="/pages/contact.html">
+                <a class="navbar-item page" href="./pages/contact.html">
                     KONTAKT
                 </a>
             </li>
             <li>
-                <a class="navbar-item page" href="/pages/about.html">
+                <a class="navbar-item page" href="./pages/about.html">
                     OM OSS
                 </a>
             </li>

@@ -4,16 +4,12 @@
     padding: 30px;
     margin-top: auto;
     margin-bottom: 0;
-
-    .footer-container > p:first-of-type {
-        font-family: $family-primary;
-        font-weight: 800;
-    };
     
     // Ikoner
     .fa-brands, .fa-solid {
         color: $textClr;
         width: 1rem;
+        // font-size: 0.875rem;
     };
     .footer-logo {
         @include flex (center, center, column);
