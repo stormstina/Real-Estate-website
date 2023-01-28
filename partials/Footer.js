@@ -1,5 +1,7 @@
-let footer = document.querySelector("#footer")
-footer.className = "columns"
+let footer = document.querySelector("#footer"); 
+footer.className = "columns";
+let base = import.meta.env.BASE_URL;
+
 
 footer.innerHTML = `
 <div class="column is-8-widescreen is-offset-2-widescreen is-6-fullhd is-offset-3-fullhd">
@@ -11,32 +13,32 @@ footer.innerHTML = `
                 <div class="column">
                     <ul>
                         <li>
-                            <a class="page" href="../index.html">
+                            <a class="page" href="${base}">
                                 HEM
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="../pages/properties.html">
+                            <a class="page" href="${base}./pages/properties.html">
                                 TILL SALU
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="../pages/sell.html">
+                            <a class="page" href="${base}./pages/sell.html">
                                 SÄLJ MED OSS
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="../pages/testimonials.html">
+                            <a class="page" href="${base}./pages/testimonials.html">
                                 SÅLDA OBJEKT
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="../pages/contact.html">
+                            <a class="page" href="${base}./pages/contact.html">
                                 KONTAKT
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="../pages/about.html">
+                            <a class="page" href="${base}./pages/about.html">
                                 OM OSS
                             </a>
                         </li>
@@ -104,7 +106,7 @@ footer.innerHTML = `
         <!--LOGGA-->
         <div class="column is-3-tablet footer-logo">
                 <a href="/">
-                    <img src="/pictures/black-logo.png"
+                    <img src="${base}./pictures/black-logo.png"
                         alt="Anrika Fastigheters logga, länk till startsida"
                     />
                 </a>
@@ -112,4 +114,4 @@ footer.innerHTML = `
     </div>
     <p class="header--footer has-text-centered">© ANRIKA FASTIGHETER 2022</p>
 </div>
-`
+`;
