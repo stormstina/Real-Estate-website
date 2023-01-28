@@ -25,27 +25,27 @@ header.innerHTML = `
                 </a>
             </li>
             <li>
-                <a class="navbar-item page" href="${base}./pages/properties.html">
+                <a class="navbar-item page" href="${base}./properties/">
                     TILL SALU
                 </a>
             </li>
             <li>
-                <a class="navbar-item page" href="${base}./pages/sell.html">
+                <a class="navbar-item page" href="${base}./sell/">
                     SÄLJ MED OSS
                 </a>
             </li>
             <li>
-                <a class="navbar-item page" href="${base}./pages/testimonials.html">
+                <a class="navbar-item page" href="${base}./testimonials/">
                     SÅLDA OBJEKT
                 </a>
             </li>
             <li>
-                <a class="navbar-item page" href="${base}./pages/contact.html">
+                <a class="navbar-item page" href="${base}./contact/">
                     KONTAKT
                 </a>
             </li>
             <li>
-                <a class="navbar-item page" href="${base}./pages/about.html">
+                <a class="navbar-item page" href="${base}./about/">
                     OM OSS
                 </a>
             </li>

@@ -18,27 +18,27 @@ footer.innerHTML = `
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="${base}./pages/properties.html">
+                            <a class="page" href="${base}./properties/">
                                 TILL SALU
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="${base}./pages/sell.html">
+                            <a class="page" href="${base}./sell/">
                                 SÄLJ MED OSS
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="${base}./pages/testimonials.html">
+                            <a class="page" href="${base}./testimonials/">
                                 SÅLDA OBJEKT
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="${base}./pages/contact.html">
+                            <a class="page" href="${base}./contact/">
                                 KONTAKT
                             </a>
                         </li>
                         <li>
-                            <a class="page" href="${base}./pages/about.html">
+                            <a class="page" href="${base}./about/">
                                 OM OSS
                             </a>
                         </li>
@@ -105,7 +105,7 @@ footer.innerHTML = `
         </div>
         <!--LOGGA-->
         <div class="column is-3-tablet footer-logo">
-                <a href="/">
+                <a href="${base}">
                     <img src="${base}./pictures/black-logo.png"
                         alt="Anrika Fastigheters logga, länk till startsida"
                     />
